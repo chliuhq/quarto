@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "Huaqing Liu's quarto website"
+  title: "Huaqing Lius quarto website"
   navbar:
     right:
       - about.qmd
