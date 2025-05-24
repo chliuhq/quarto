@@ -1,0 +1,9 @@
+---
+title: "test"
+author: "Huaqing Liu"
+date: "2025-05-24"
+categories: [news, code, analysis]
+image: "image.jpg"
+---
+
+This is a post with executable code.
