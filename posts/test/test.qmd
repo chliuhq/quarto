@@ -5,8 +5,14 @@ date: "2025-05-24"
 categories: [news, code, analysis]
 image: "image.jpg"
 ---
+# First
+This is the first test of quarto to establish personal website.
 
-This is a post with executable code.
+
+# Second
+Quarto help us publish article with executable code.
+
+# Test R code
 ```{r}
 print("Hello World")
 
