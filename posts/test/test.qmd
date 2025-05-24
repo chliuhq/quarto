@@ -1,18 +1,25 @@
 ---
-title: "test"
-author: "Huaqing Liu"
-date: "2025-05-24"
-categories: [news, code, analysis]
-image: "image.jpg"
+title: "ggplot2 demo"
+author: "Norah Jones"
+date: "5/22/2021"
+format: 
+  html:
+    fig-width: 8
+    fig-height: 4
+    code-fold: true
 ---
 
-This is the first test of quarto to establish personal website.
+## Air Quality
+
+@fig-airquality further explores the impact of temperature on ozone level.
 
 ```{r}
-print("Hello World")
+#| label: fig-airquality
+#| fig-cap: "Temperature and ozone level."
+#| warning: false
 
+library(ggplot2)
+ggplot(airquality, aes(Temp, Ozone)) + 
+  geom_point() + 
+  geom_smooth(method = "loess")
 ```
-
-
-
-
