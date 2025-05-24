@@ -1,0 +1,15 @@
+{
+  "hash": "42a76421543d4863b595f2e6d5452b89",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"test\"\nauthor: \"Huaqing Liu\"\ndate: \"2025-05-24\"\ncategories: [news, code, analysis]\nimage: \"image.jpg\"\n---\n\nThis is a post with executable code.\n\n::: {.cell}\n\n```{.r .cell-code}\nprint(\"Hello World\")\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] \"Hello World\"\n```\n\n\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
