@@ -23,3 +23,5 @@ ggplot(airquality, aes(Temp, Ozone)) +
   geom_point() + 
   geom_smooth(method = "loess")
 ```
+
+[[posts\test\index.qmd]]
