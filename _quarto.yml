@@ -2,7 +2,9 @@ project:
   type: website
 
 website:
+  page-navigation: true
   title: "Huaqing Liu & Jiahui Yang Lab"
+  site-url: https://huaqingliu.netlify.app
   navbar:
     right:
       - about.qmd
